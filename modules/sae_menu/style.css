@@ -1,0 +1,83 @@
+#floatingWindow {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    width: 20em;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    border-radius: 1px;
+    z-index: 1000;
+    padding: 10px;
+    cursor: grab;
+    opacity: 0.9;
+    overflow-y: auto;
+    height: 80%;
+    transition: height 0.3s;
+}
+
+#minimizeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+}
+
+#saeMenuTitle {
+    position: absolute;
+    top: 0;
+    font-size: 10px;
+}
+
+.container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.element {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* For text input */
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+/* For checkbox */
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+/* For button */
+.elemButton {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #008CBA; /* Change as needed */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.elemButton:hover {
+    background-color: #007B9A; /* Darker shade of the original color */
+}
