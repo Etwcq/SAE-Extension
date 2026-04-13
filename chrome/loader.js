@@ -81,7 +81,7 @@ window.onload = async (e) => {
 
 
     // ライセンス認証
-    const LICENSE_SERVICE = "https://script.google.com/macros/s/AKfycbxSn7wxVpbD8sbv1m_scx59VjsE4WbogmZAgtClq_rxaoY5Tq4jfkQ_apqh8GYaB6iU/exec";
+    const LICENSE_SERVICE = "";
     let localLicense = undefined;
 
     await chrome.storage.local.get(["sae_license"]).then((result) => {
